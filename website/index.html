@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Hero</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      html {
+        overflow: scroll;
+        overflow-x: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 0; /* Remove scrollbar space */
+        background: transparent; /* Optional: just make scrollbar invisible */
+      }
+      /* Optional: show position indicator in red */
+      ::-webkit-scrollbar-thumb {
+        background: #ff0000;
+      }
+      body {
+        background: black;
+        color: whitesmoke;
+        margin: 0;
+      }
+      div {
+        text-align: center;
+      }
+      #vidContainer {
+        border-top: 1px solid white;
+        margin-top: 5px;
+      }
+      video {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>~Contract~</h1>
+      <h4>0x1cd7d233085054969cae7617da1b82d508ab57a0</h4>
+      <h4>Slippage: 12%</h4>
+      <a
+        href="https://poocoin.app/tokens/0x1cd7d233085054969cae7617da1b82d508ab57a0"
+        >📊 Chart</a
+      >
+      |
+      <a
+        href="https://pancakeswap.finance/swap?outputCurrency=0x1cd7d233085054969cae7617da1b82d508ab57a0"
+        >🥞 Buy</a
+      >
+      |
+      <a href="https://t.me/RED_HER0">💬 Telegram</a>
+    </div>
+    <div id="vidContainer">
+      <video autoplay loop muted>
+        <source src="redHero.mkv" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>
